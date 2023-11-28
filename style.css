@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Jost;
+    src: url(Jost-VariableFont.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px;
+    font-family: Jost;
+    height: 30px;
+    font-weight: 600;
+   
+    
+}
+.red{
+    color:rgb(255, 3, 58);
+}
+.number{
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.plate{
+    margin-top: 120px;
+    justify-content: center;
+    align-items:center;
+    height: 400px;
+    font-size: 140px;
+    font-family: Jost;
+    font-weight: 800;
+    display: flex;
+    letter-spacing: 10px;
+    line-height: 120px;
+}
+.my{
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 10px;
+    padding: 10px;
+}
+.inf{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    font-family: Jost;
+    height: 30px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 125px;
+
+
+}
+.but{
+    background-color:rgb(255, 3, 58);
+    color: aliceblue;
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 5px 60px;
+    border-color: rgb(167, 21, 21);
+    font-family: Jost;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.hits{
+    font-size: 20px;
+    margin-top: 120px;
+    margin-left: 80px;
+    padding: 20px;
+    font-family: Jost;
+    color: rgb(0, 0, 0);
+}
+.hit{
+    font-size: 45px;
+    font-weight: 700;
+}
+.ph{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.des{
+    display: flex;
+    font-family: Jost;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+.name{
+    width: 350px;
+}
+.weight{
+    font-size: 16px;
+    color:lightslategrey;
+}
+.bt{
+    background-color: rgb(255, 3, 58);
+    color: aliceblue;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 5px 30px;
+    border-color: rgb(167, 21, 21);
+    font-family: Jost;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+.delivery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: 100px;
+
+    font-size: 70px;
+    font-family: Jost;
+    font-weight: 700;
+}
+.q{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.a{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
