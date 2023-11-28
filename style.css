@@ -5,6 +5,9 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    margin: 0%;
+}
 
 .container{
     display: flex;
@@ -136,4 +139,24 @@ html{
     margin-top: 5px;
     font-size: 20px;
     font-weight: 400;
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    height: 100px;
+    margin-top: 100px;
+    font-family: Jost;
+    font-size: 30px;
+    text-align: center;
+    justify-content: right;
+    padding: 20px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-family: Jost;
+    font-size: 20px;
+    color: aliceblue;
 }
